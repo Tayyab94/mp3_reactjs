@@ -1,0 +1,91 @@
+.dropArea {
+    width: 300px;
+    height: 150px;
+    border: 2px dashed #4CAF50;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    color: black;
+}
+
+.fileInput {
+    display: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.fileInputLabel {
+    font-size: 16px;
+    color: #4CAF50;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.trackName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.playButton {
+    font-size: 18px;
+    padding: 10px 40px;
+    margin: 0 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2196F3;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progressContainer {
+    width: 80%;
+    height: 18px;
+    background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progressBar {
+    width: 50%; /* Dynamic based on the audio progress */
+    height: 100%;
+    background-color: #4CAF50;
+}
